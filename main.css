@@ -4,7 +4,6 @@
 
 body {
   width: 450px;
-  
 }
 
 h4 {
@@ -12,18 +11,19 @@ h4 {
   background-color: blue;
   height: 35px;
   border: 1px solid black;
-  
 }
 
 p {
+  overflow: auto;
+  height: 0px;
   background: grey;
   border-left: 1px solid blue;
   border-right: 1px solid blue;
-
+  transition: height 2s ease-in-out;
 }
 
 .pchanges {
-  overflow: hidden;
-  height: 0;
-  transition: all 2s ease;
+  overflow: scroll;
+  height: 175px;
+  /*transition: all 2s ease-in-out;*/
 }
