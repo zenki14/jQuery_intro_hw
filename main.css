@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 450px;
+  
+}
+
+h4 {
+  color: white;
+  background-color: blue;
+  height: 35px;
+  border: 1px solid black;
+  
+}
+
+p {
+  background: grey;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+
+}
+
+.pchanges {
+  overflow: hidden;
+  height: 0;
+  transition: all 2s ease;
+}
