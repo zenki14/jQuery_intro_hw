@@ -18,6 +18,6 @@
 
 
 $('.sect').on('click', function () {
-  $('para').removeClass('pchanges');
-  $(this).next().addClass('pchanges');
+  $('.para').removeClass('pchanges');
+  $(this).next('.para').addClass('pchanges');
 });
