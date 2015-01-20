@@ -22,6 +22,10 @@ p {
   transition: height 2s ease-in-out;
 }
 
+/*.paraOne {
+  height: 175px;
+}
+*/
 .pchanges {
   overflow: scroll;
   height: 175px;
